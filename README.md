@@ -33,3 +33,12 @@ Features:
 ### Dashboard Preview
 
 ![Grafana Dashboard](docs/screenshots/grafana-dashboard.png)
+
+## Features
+
+- MariaDB Master-Slave Replication
+- Prometheus Monitoring
+- Grafana Dashboard
+- Automated Backup
+- Infrastructure Alerting
+- Failover Scenario Testing
