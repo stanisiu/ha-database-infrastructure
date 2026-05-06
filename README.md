@@ -12,3 +12,9 @@
 - MariaDB Replication
 - Network Segmentation (GNS3)
 - Infrastructure as Code (Shell script)
+
+## Replication Status
+
+- Master-Slave replication configured successfully
+- Internal network communication verified
+- Real-time synchronization confirmed
