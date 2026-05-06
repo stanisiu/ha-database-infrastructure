@@ -1,0 +1,22 @@
+groups:
+  - name: infrastructure-alerts
+    rules:
+      - alert: DBMasterDown
+        expr: up{instance="10.10.50.10:9100"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          service: db-master
+        annotations:
+          summary: "DB Master is down"
+          description: "db-master node exporter is not reachable."
+
+      - alert: DBSlaveDown
+        expr: up{instance="10.10.50.11:9100"} == 0
+        for: 1m
+        labels:
+          severity: warning
+          service: db-slave
+        annotations:
+          summary: "DB Slave is down"
+          description: "db-slave node exporter is not reachable."
