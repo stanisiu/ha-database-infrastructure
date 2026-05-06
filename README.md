@@ -12,3 +12,24 @@
 - MariaDB Replication
 - Network Segmentation (GNS3)
 - Infrastructure as Code (Shell script)
+
+## Replication Status
+
+- Master-Slave replication configured successfully
+- Internal network communication verified
+- Real-time synchronization confirmed
+
+## Monitoring Dashboard
+
+Grafana dashboard integrated with Prometheus monitoring.
+
+Features:
+- Real-time CPU monitoring
+- Memory usage tracking
+- Disk usage monitoring
+- Network traffic analysis
+- Database server status monitoring
+
+### Dashboard Preview
+
+![Grafana Dashboard](docs/screenshots/grafana-dashboard.png)
