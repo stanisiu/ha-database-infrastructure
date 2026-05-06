@@ -2,6 +2,6 @@
 
 DATE=$(date +%F)
 
-mkdir -p /backup
+mkdir -p ~/backup
 
-mysqldump -u root repl_test > /backup/repl_test-$DATE.sql
+sudo mysqldump repl_test > ~/backup/repl_test-$DATE.sql
