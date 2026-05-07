@@ -53,10 +53,6 @@ Prometheus and Grafana were integrated to provide real-time infrastructure monit
 
 ![Grafana Dashboard](docs/screenshots/grafana-dashboard-full.png)
 
-## Dashboard Edit Mode
-
-![Grafana Dashboard Edit Mode](docs/screenshots/grafana-dashboard-edit-mode.png)
-
 ## Alert Rules
 
 ![Grafana Alert Rules](docs/screenshots/grafana-dashboard-alert-rules.png)
@@ -108,7 +104,7 @@ The monitoring system detects server failure when the monitored node becomes una
 
 ## Alert History
 
-![Alert History](docs/screenshots/alert-history.png)
+![Alert History](docs/screenshots/alert-history-detail.png)
 
 ## Alert Recovery
 
@@ -164,12 +160,24 @@ ha-database-infrastructure-lab/
 ├── database/
 ├── docs/
 │   ├── screenshots/
-│   ├── master-setup.md
-│   ├── slave-setup.md
-│   ├── replication-test.md
+│   │   ├── alert-firing.png
+│   │   ├── alert-history-detail.png
+│   │   ├── alert-recovered.png
+│   │   ├── grafana-dashboard-alert-rules.png
+│   │   ├── grafana-dashboard-full.png
+│   │   ├── host-network-info.png
+│   │   ├── replication-failed.png
+│   │   └── replication-normal.png
+│   ├── architecture-diagram.png
+│   ├── alerting.md
 │   ├── backup-automation.md
+│   ├── backup-restore.md
 │   ├── cron-backup.md
-│   └── failover-test.md
+│   ├── failover-test.md
+│   ├── master-setup.md
+│   ├── monitoring-setup.md
+│   ├── replication-test.md
+│   └── slave-setup.md
 ├── gns3/
 ├── monitoring/
 ├── scripts/
