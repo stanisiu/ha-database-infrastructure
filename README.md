@@ -1,4 +1,4 @@
-# HA Database Infrastructure Lab
+# HA Database Infrastructure
 
 High Availability Database Infrastructure project built with MariaDB replication, Prometheus monitoring, and Grafana alerting.
 
