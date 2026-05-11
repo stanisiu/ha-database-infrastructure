@@ -104,11 +104,12 @@ The monitoring system detects server failure when the monitored node becomes una
 
 ## Alert History
 
-![Alert History](docs/screenshots/alert-history-detail.png)
+![Alert History](docs/screenshots/alert-recovered.png)
 
 ## Alert Recovery
 
-![Alert Recovery](docs/screenshots/alert-recovered.png)
+![Alert Recovery](docs/screenshots/alert-history-detail.png
+)
 
 ---
 
