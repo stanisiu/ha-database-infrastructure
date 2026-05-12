@@ -2,18 +2,16 @@
 
 High Availability Database Infrastructure project built with MariaDB replication, Prometheus monitoring, and Grafana alerting.
 
-This lab environment simulates a small-scale enterprise infrastructure with monitoring, backup automation, failover testing, and network segmentation using GNS3.
+This lab environment simulates a small-scale enterprise infrastructure with monitoring, backup automation, failover testing, and internal virtual network configuration using VMware.
 
 ---
 
 # Architecture
 
 - Router (NAT / Internal Routing)
-- Layer 2 Switch Network
 - DB Master Server (Write Node)
 - DB Slave Server (Read Replica)
 - Monitoring Server (Prometheus & Grafana)
-- Storage Server (NFS)
 
 ## Architecture Diagram
 
@@ -31,7 +29,7 @@ This lab environment simulates a small-scale enterprise infrastructure with moni
 - Cron-based Backup Scheduling
 - Replication Health Check Script
 - Infrastructure Failover Testing
-- Network Segmentation using GNS3
+- Internal Network Configuration using VMware
 - Infrastructure Automation with Shell Scripts
 
 ---
@@ -104,12 +102,11 @@ The monitoring system detects server failure when the monitored node becomes una
 
 ## Alert History
 
-![Alert History](docs/screenshots/alert-recovered.png)
+![Alert History](docs/screenshots/alert-history-detail.png)
 
 ## Alert Recovery
 
-![Alert Recovery](docs/screenshots/alert-history-detail.png
-)
+![Alert Recovery](docs/screenshots/alert-recovered.png)
 
 ---
 
@@ -148,7 +145,6 @@ A custom health check script was created to verify replication status automatica
 - Prometheus
 - Grafana
 - VMware Workstation
-- GNS3
 - Bash Shell Scripting
 - Linux Networking
 
@@ -179,8 +175,6 @@ ha-database-infrastructure-lab/
 │   ├── monitoring-setup.md
 │   ├── replication-test.md
 │   └── slave-setup.md
-├── gns3/
 ├── monitoring/
 ├── scripts/
-├── storage/
 └── vmware/
